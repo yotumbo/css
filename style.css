@@ -1,0 +1,5 @@
+#content .feed_item {
+  margin: 30px 0px 0px 0;
+  padding: 5px 0px 40px 0;
+  border-bottom: 1px dashed #CCCCCC;
+  clear: both;
