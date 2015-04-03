@@ -1,0 +1,18 @@
+﻿/*##########全体フレーム設定##########*/
+#container{text-align:left;overflow:hidden;margin:0;padding:0;width:1025px;font-family:'Trebuchet MS', Verdana, Arial;font-size:25px;border:0px solid #CCCCCC;}/*◇◇◇フレーム設定「横幅」「縦幅」「フォントサイズ」「枠線」はここで設定◇◇◇*/
+/*##########ヘッダ設定##########*/
+#header{margin:0px;padding:5px 5px 5px 5px;color:#FFFFFF;background-color:#0066FF;background-image:none;}/*◇◇◇タイトル設定「背景色」「フォントカラー」「背景画像」はここで設定。◇◇◇*/
+#header .feed_title{margin:0;padding:0;font-weight:bold;word-wrap:break-word;}
+#header .feed_title a:link{color:#FFFFFF;text-decoration:none;}/*feed_titleリンク設定:link*/ /*◇◇◇タイトル設定「フォントカラー」はここで設定。◇◇◇*/
+#header .feed_title a:visited{color:#FFFFFF;text-decoration:none;}/*feed_titleリンク設定:visited*/ /*◇◇◇タイトル設定「フォントカラー」はここで設定。◇◇◇*/
+#header .feed_title a:hover{color:#FFFFFF;text-decoration:underline;}/*feed_titleリンク設定:hover*/ /*◇◇◇タイトル設定「フォントカラー」はここで設定。◇◇◇*/
+#header .feed_title a:active{color:#FFFFFF;text-decoration:none;}/*feed_titleリンク設定:active*/ /*◇◇◇タイトル設定「フォントカラー」はここで設定。◇◇◇*/
+/*##########コンテンツ設定##########*/
+#content{overflow:hidden;margin:0 0 0 0;padding:5px 0px 0px 0px;background-color:#FFFFFF;background-image:none;}
+#content .feed_item{margin:0 0 0px 0;padding:20px 0 20px 0;border-bottom:1px dashed #CCCCCC;clear:both;}/*◇◇◇見出し設定「区切り線」「背景色」「背景画像」はここで設定◇◇◇*/
+#content .feed_item_title{margin:0px 0 30px 0px;padding:0px 0px 0px 0px;color:#A71E2F;font-weight:bold;line-height: 120%;}/*◇◇◇見出し設定「フォントカラー」はここで設定◇◇◇*/
+#content .feed_item_title a:link{color: #A71E2F;text-decoration: none;font-weight: bold;font-family: '__Dotum_5';text-decoration: none;font-size: 27px;transition-duration: 0.2s;}/*feed_item_titleリンク設定:link*/  /*◇◇◇見出し設定「フォントカラー」はここで設定◇◇◇*/
+#content .feed_item_title a:visited{color:#A71E2F;text-decoration:none;}/*feed_item_titleリンク設定:visited*/  /*◇◇◇見出し設定「フォントカラー」はここで設定◇◇◇*/
+#content .feed_item_title a:hover{color:#A71E2F;text-decoration:none;}/*feed_item_titleリンク設定:hover*/  /*◇◇◇見出し設定「フォントカラー」はここで設定◇◇◇*/
+#content .feed_item_title a:active{color:#006AFF;text-decoration:none;}/*feed_item_titleリンク設定:active*/  /*◇◇◇見出し設定「フォントカラー」はここで設定◇◇◇*/
+#content .feed_item_description{margin:0 0 0 3px;padding:0 2px 0 3px;color:#1C2029;line-height:135%;word-wrap:break-word;clear:both;font-family: '__Dotum_5';font-size: 20px;}/*◇◇◇本文設定「フォントカラー」はここで設定◇◇◇*/
